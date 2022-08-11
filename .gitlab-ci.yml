@@ -6,7 +6,7 @@ services:
 stages:
     - test
     - deploy
-    # - release
+    - release
 
 test:
     stage: test
