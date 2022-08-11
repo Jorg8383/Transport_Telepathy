@@ -4,11 +4,14 @@ from users.models import Profile
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+# from django.views.decorators.csrf import ensure_csrf_cookie
 
 
+# @ensure_csrf_cookie
 @csrf_exempt
 def registerUser(request):
     if request.method == 'POST':
+        # RequestContext(request)
         user_email = request.POST.get("userEmail")
         user_password = request.POST.get("userPassword")
         if username_exists(user_email):
@@ -41,6 +44,7 @@ def registerUser(request):
             return HttpResponse(status=204)
 
 
+# @ensure_csrf_cookie
 @csrf_exempt
 def loginUser(request):
     if request.method == 'POST':
@@ -79,6 +83,7 @@ def delete_user(request):
         return HttpResponse(status=401)
 
 
+# @ensure_csrf_cookie
 @csrf_exempt
 def change_age(request):
     new_age = request.POST.get("age")
