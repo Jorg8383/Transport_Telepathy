@@ -1,4 +1,4 @@
-# Research Practicum
+# Transport Telepathy
 
 ### Introduction
 Transport Telepathy is a web application that creates journey time predictions for Dublin Bus by utilising machine learning models. Accurate prediction of bus travel time is crucial for travellers who wish to plan their journey. Although Dublin Bus provides static timetables, the generic travel time may not be highly accurate and informative due to influential factors such as weather conditions and time of the day. Hence, a web-based application based on Random Forest algorithms that consider the aforementioned factors was proposed to provide a more accurate solution that predicts the travel time on public transport in Dublin.
