@@ -1,4 +1,4 @@
-# ResearchPracticum
+# Research Practicum
 
 ### Introduction
 Transport Telepathy is a web application that creates journey time predictions for Dublin Bus by utilising machine learning models. Accurate prediction of bus travel time is crucial for travellers who wish to plan their journey. Although Dublin Bus provides static timetables, the generic travel time may not be highly accurate and informative due to influential factors such as weather conditions and time of the day. Hence, a web-based application based on Random Forest algorithms that consider the aforementioned factors was proposed to provide a more accurate solution that predicts the travel time on public transport in Dublin.
@@ -43,5 +43,4 @@ We use Django sessions to save the users total CO2 saved and their cost bracket 
 ![Client Changing WoT Property](mobile.gif "Client Changing WoT Property")
 
 ### CI/CD
-We used Gitlab CI/CD with a gitlab runner which automated testing upon certain commits and deployment. This also included PEP8 compliance testing for all branches. 
-
+The CI/CD development process was performed using Gitlab’s CI/CD tool. This required setting up a Gitlab Runner; a virtual machine to run these processes. The project used the provided UCD virtual machine as a Gitlab Runner. This meant that as soon as a change was merged into the master branch, all tests were completed, and the application was deployed live automatically if passed. Furthermore, functional and unit testing was automatically run whenever changes were made to the development branch. PEP8 testing was performed with changes made to every branch.
