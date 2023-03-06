@@ -5,7 +5,7 @@ Transport Telepathy is a web application that creates journey time predictions f
 
 Diverse technologies including jQuery, Bootstrap, Django, a cloud-based MySQL database, NGINX, uWSGI and Docker were employed to deliver a user-friendly and accurate app with multiple features. In addition to the core travel time prediction features, this web application also provides several innovative features such as a CO2 calculator, user authentication, weather forecast, bus fare calculator, and user notifications. Judging by the evaluation metrics, the proposed and realised application accurately predicts the travel time with an overall R2 value of 0.82. As a result, the delivered estimations are closely in line with predictions provided by the Google map API.
 
-This application was developed for the Research Practicum for the MSc Computer Science at University College Dublin in collaboration with my teammates Daniel Gresak, Ziying Wang, Yating Zhan.
+This application was developed during the Research Practicum for the MSc Computer Science at University College Dublin in collaboration with my teammates Daniel Gresak, Ziying Wang, Yating Zhan.
 
 ### Project Specification
 Bus companies produce schedules which contain generic travel times. For example, in the Dublin Bus
